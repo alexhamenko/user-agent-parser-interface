@@ -1,0 +1,19 @@
+{
+    "name": "olorin/user-agent-parser-interface",
+    "description": "Interface for services parsing User Agents",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Hamenko",
+            "email": "hamenko.aleksandr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Hillel\\UserAgent\\ParserInterface\\": "./src"
+        }
+    },
+    "require": {}
+}
